@@ -1,0 +1,124 @@
+@media (max-width: 900px){
+    .blogs-main-new{
+        grid-template-columns: 1fr;
+        grid-template-rows: 3;
+    }
+
+    .blogs-news-img-container{
+        grid-row: 2;
+    }
+
+    .blogs-news-info-container{
+        grid-column: 1;
+        grid-row: 3;
+    }
+
+    .blogs-posts-container .post-container{
+        max-width: 45%;
+    }
+
+    .profile-main-container .profile-container{
+        display: block;
+    }
+
+    header {
+        height: auto;
+        grid-template-rows: auto auto;
+    }
+
+    header .header-icons-container .icons {
+        width: 100%;
+        justify-content: center;
+        margin-right: 0;
+    }
+
+    nav {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    nav .nav-logo-container {
+        margin: 0 auto;
+    }
+
+    nav .profile-link {
+        margin: 10px auto;
+    }
+
+    .main-container {
+        width: 90%;
+    }
+
+    .main-container h1 {
+        font-size: 24px;
+        letter-spacing: 2px;
+    }
+
+    .main-container .btn {
+        width: 80px;
+        padding: 8px 5px;
+        font-size: 12px;
+    }
+    .body {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        width: 100vw; /* Ocupa todo el ancho de la ventana */
+        height: 100vh; /* Ocupa todo el alto de la ventana */
+        background: url('../assets/bg-final.jpg') no-repeat center center fixed; /* Imagen centrada y fija */
+        background-size: cover; /* Escala la imagen para cubrir todo el espacio */
+    }
+
+
+}
+
+@media (max-width: 600px){
+    .blogs-posts-container .post-container{
+        max-width: 95%;
+    }
+
+    header .header-icons-container .icons {
+        margin-right: 20px;
+    }
+
+    nav {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    nav .nav-logo-container {
+        margin: 0 auto;
+    }
+
+    nav .profile-link {
+        margin: 10px auto;
+    }
+
+    .main-container {
+        width: 80%;
+    }
+
+    .main-container h1 {
+        font-size: 30px;
+        letter-spacing: 5px;
+    }
+
+    .main-container .btn {
+        width: 90px;
+        padding: 10px 8px;
+        margin-top: 40px;
+    }
+
+    .body {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        width: 100vw; /* Ocupa todo el ancho de la ventana */
+        height: 100vh; /* Ocupa todo el alto de la ventana */
+        background: url('../assets/bg-final.jpg') no-repeat center center fixed; /* Imagen centrada y fija */
+        background-size: cover; /* Escala la imagen para cubrir todo el espacio */
+    }
+    
+    
+}
+
