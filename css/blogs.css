@@ -11,6 +11,16 @@ a{
     color: black;
 }
 
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100vw; /* Ocupa todo el ancho de la ventana */
+    height: 100vh; /* Ocupa todo el alto de la ventana */
+    background: url('../assets/bg.jpg') no-repeat center center fixed; /* Imagen centrada y fija */
+    background-size: cover; /* Escala la imagen para cubrir todo el espacio */
+}
+
 header{
     width: 100%;
     height: 140px;
@@ -61,8 +71,8 @@ nav .profile-link{
 }
 
 nav .profile-link a {
-    color: black;
-    border-bottom: 1px solid black;
+    color: white;
+    border-bottom: 1px solid white;
 }
 
 .blogs-main{
@@ -133,6 +143,7 @@ nav .profile-link a {
     padding-bottom: 20px;
     text-align: center;
     margin-top: 20px;
+    color: white;
 }
 
 .blogs-posts-container .post-container{
@@ -140,9 +151,14 @@ nav .profile-link a {
     max-width: 30%;
     margin-bottom: 50px;
     margin-top: 20px;
-    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.6);
+    box-shadow: 2px 4px 8px rgba(32, 45, 75, 0.6);
     min-height:500px ;
     margin-left: 20px;
+    background-color: white;
+}
+
+.post-container h3{
+    color: black;
 }
 
 .blogs-posts-container .post-container p{
@@ -198,6 +214,10 @@ footer p{
 
 .blogpost-main-container{
     padding: 0 50px 40px;
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
 }
 
 .blogpost-main-container h3{

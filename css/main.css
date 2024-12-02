@@ -10,7 +10,7 @@
     box-sizing: border-box;
     width: 100vw; /* Ocupa todo el ancho de la ventana */
     height: 100vh; /* Ocupa todo el alto de la ventana */
-    background: url('../assets/bg-final.jpg') no-repeat center center fixed; /* Imagen centrada y fija */
+    background: url('../assets/bg.jpg') no-repeat center center fixed; /* Imagen centrada y fija */
     background-size: cover; /* Escala la imagen para cubrir todo el espacio */
 }
 
@@ -70,8 +70,8 @@ nav .profile-link{
 }
 
 nav .profile-link a {
-    color: black;
-    border-bottom: 1px solid black;
+    color: white;
+    border-bottom: 1px solid white;
 }
 
 .main-container{
@@ -84,6 +84,7 @@ nav .profile-link a {
 .main-container h1{
     font-size: 40px;
     letter-spacing: 10px;
+    color:white;
 }
 
 .main-container .btn{
